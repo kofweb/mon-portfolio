@@ -1,3 +1,9 @@
+.job{
+   margin-bottom: 20px;
+   margin-top: 20px;
+   font-size: 20px;
+   color: yellow;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +11,7 @@
 }
 body{
     font-family: 'Segoe UI', sans-serif;
-    background-color: #150130;
+    background-color: #20012c;
     color: #FAF9F6;
     line-height: 1.6;
 }
@@ -22,21 +28,22 @@ header{
     border-bottom: 2px solid #20C2E0;
 }
 .profile-pic{
-    width: 120px;
-    height: 120px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
-    border: 3px solid #20C2E0;
+    border: 4px solid  #00BFCF;
     object-fit: cover;
     margin: 1rem;
 }
 nav a {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     color: #00BFCF;
     text-decoration: none;
     font-weight: bold;
 }
  nav a:hover{
-    text-decoration: underline;
+    text-decoration: underline overline;
+    color: #f10843;
 
  }
  section h2{
@@ -45,6 +52,12 @@ nav a {
  }
  .skill{
     margin-bottom: 1rem;
+ }
+.adore{
+   margin-top: 40px;
+   font-size: 20px;
+   color: #f0b505;
+   font-style: italic ;
  }
  .bar{
     background-color: #E0E0E0;
@@ -55,9 +68,54 @@ nav a {
  }
  .bar .value{
     height: 10px;
-    background-color: #00BFCF;
+    background-color:yellow;
  }
-.cont a{
+ .bar .value2{
+   height: 10px;
+   background-color: yellow;
+
+ }
+  
+ .bar .value3{
+   height: 10px;
+   background-color:red;
+ }
+  
+ .bar .value4{
+   height: 10px;
+   background-color:red;
+ }
+  
+ .bar .value5{
+   height: 10px;
+   background-color: yellow;
+ }
+  .bar .value6{
+    height: 10px;
+    background-color:yellow;
+ }
+  .bar .value7{
+    height: 10px;
+    background-color:green;
+ }
+ .project{
+    background-color: #1A2E35;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+ }
+ .project span{
+   color: #f0b505;
+ }
+ footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #034769;
+    border-top: 1px solid #20C2E0;
+    font-size: 0.9rem;
+    color: #ccc;
+ }
+ .cont a{
    color: #f0b505;
    font: 20px;
    text-decoration: none;
@@ -68,18 +126,4 @@ nav a {
    color: #E0E0E0;
    text-decoration: underline;
  }
- .project{
-    background-color: #1A2E35;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
- }
- footer{
-    text-align: center;
-    padding: 1rem;
-    background-color: #0B2C3D;
-    border-top: 1px solid #20C2E0;
-    font-size: 0.9rem;
-    color: #ccc;
- }
-
+ 
